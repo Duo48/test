@@ -1,21 +1,21 @@
 body {
-  --text-color: #222;
-  --bkg-color: #fff;
+  --text-color: var(--light__text-color);
+  --bkg-color: var(--light__bkg-color);
 }
 body.dark-theme {
-  --text-color: #eee;
-  --bkg-color: #121212;
+  --text-color: var(--dark__text-color);
+  --bkg-color: var(--dark__bkg-color);
 }
 
 @media (prefers-color-scheme: dark) {
   /* defaults to dark theme */
   body {
-    --text-color: #eee;
-    --bkg-color: #121212;
+    --text-color: var(--dark__text-color);
+    --bkg-color: var(--dark__bkg-color);
   }
   body.light-theme {
-    --text-color: #222;
-    --bkg-color: #fff;
+    --text-color: var(--light__text-color);
+    --bkg-color: var(--light__bkg-color);
   }
 }
 
