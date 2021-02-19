@@ -40,6 +40,7 @@ function watch() {
   browserSync.init({
     proxy: projectURL,
   });
+  gulp.watch("./**/*.html").on("change", browserSync.reload);
   gulp.watch("./src/sass/**/*.scss", style);
   gulp.watch("./src/js/**/*.js", jsTask);
 }
