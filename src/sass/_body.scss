@@ -3,10 +3,12 @@ html {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
   --text-color: var(--light__text-color);
   --bkg-color: var(--light__bkg-color);
 }
+
 body.dark-theme {
   --text-color: var(--dark__text-color);
   --bkg-color: var(--dark__bkg-color);
