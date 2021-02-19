@@ -25,7 +25,7 @@ body.dark-theme {
 }
 
 * {
-  font-family: $type__body;
+  font-family: var(--font__body);
 }
 
 body {
