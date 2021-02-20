@@ -16,6 +16,7 @@ body.dark-theme {
   body {
     @include dark__theme;
   }
+
   body.light-theme {
     @include light__theme;
   }
@@ -36,6 +37,10 @@ body {
   font-weight: var(--font__regular-weight);
   color: var(--color__body-text);
   overflow-x: hidden;
+}
+
+img {
+  filter: var(--effect__image-filter);
 }
 
 main {
