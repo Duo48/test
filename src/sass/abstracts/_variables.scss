@@ -18,6 +18,11 @@
   --light__font-regular-weight: 400;
   --light__font-bold-weight: 700;
 
+  // Colours
+  --color__forms-buttons-border: 2px solid var(--dark__bkg-color);
+  --color__forms-buttons-bkg: #ffc845;
+  --color__forms-buttons-text: var(--dark__bkg-color);
+
   // Effects
   --effect__transition: 0.4s ease-in-out;
 
@@ -25,6 +30,7 @@
   --font__body: "Inter", Arial, Helvetica, sans-serif;
 
   // Units
+  --unit__border-radius: 0.75rem;
   --unit__margin-default: 1.5rem 0;
   --unit__padding-left: 3rem; // ol, ul padding-inline-start
 }

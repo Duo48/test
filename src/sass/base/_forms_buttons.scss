@@ -1,5 +1,18 @@
+// Override button defaults
 button {
+  border-width: 0;
+  border-style: none;
+  border-color: none;
+}
+
+button {
+  background-color: var(--color__forms-buttons-bkg);
   cursor: pointer;
+  font-weight: 400;
+  color: var(--color__forms-buttons-text);
+  border: var(--color__forms-buttons-border);
+  border-radius: var(--unit__border-radius);
+  padding: 1rem;
 }
 
 button.squishy:active {
