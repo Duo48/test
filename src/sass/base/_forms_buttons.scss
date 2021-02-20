@@ -11,6 +11,7 @@ button {
   font-weight: 400;
   color: var(--color__forms-buttons-text);
   border: var(--color__forms-buttons-border);
+  transition: var(--effect__transition);
   border-radius: var(--unit__border-radius);
   padding: 1rem;
 }
