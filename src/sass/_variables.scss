@@ -2,25 +2,18 @@
   /**
 	 * Colours -- DARK
 	 */
-  --dark__text-color: #ccc;
   --dark__bkg-color: #1c1c1c;
+  --dark__text-color: #ccc;
+  --dark__color-primary: #ff2929;
+  --dark__color-secondary: #ffc845;
 
   /**
 	 * Colours -- LIGHT
 	 */
-  --light__text-color: #222;
-  --light__bkg-color: #fff;
-
-  /**
-	 * Colours -- DEFAULT
-	 */
-  --color__primary: #9a1818;
-  --color__secondary: #ffc845;
-
-  --color__link-body: var(--text-color);
-  --color__link-body-underline: var(--text-color);
-  --color__link-body-hover: var(--color__primary);
-  --color__link-body-underline-hover: var(--color__secondary);
+  --light__bkg-color: #fffafa;
+  --light__text-color: #545454;
+  --light__color-primary: #9a1818;
+  --light__color-secondary: #ffc845;
 
   // Effects
   --effect__transition: 0.4s ease-in-out;

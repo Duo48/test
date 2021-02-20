@@ -5,24 +5,40 @@ html {
 }
 
 body {
-  --text-color: var(--light__text-color);
-  --bkg-color: var(--light__bkg-color);
+  --color__body-text: var(--light__text-color);
+  --color__body-background: var(--light__bkg-color);
+  --color__link-body: var(--color__body-text);
+  --color__link-body-underline: var(--color__body-text);
+  --color__link-body-hover: var(--light__color-primary);
+  --color__link-body-underline-hover: var(--light__color-secondary);
 }
 
 body.dark-theme {
-  --text-color: var(--dark__text-color);
-  --bkg-color: var(--dark__bkg-color);
+  --color__body-text: var(--dark__text-color);
+  --color__body-background: var(--dark__bkg-color);
+  --color__link-body: var(--color__body-text);
+  --color__link-body-underline: var(--color__body-text);
+  --color__link-body-hover: var(--dark__color-primary);
+  --color__link-body-underline-hover: var(--dark__color-secondary);
 }
 
 @media (prefers-color-scheme: dark) {
   /* defaults to dark theme */
   body {
-    --text-color: var(--dark__text-color);
-    --bkg-color: var(--dark__bkg-color);
+    --color__body-text: var(--dark__text-color);
+    --color__body-background: var(--dark__bkg-color);
+    --color__link-body: var(--color__body-text);
+    --color__link-body-underline: var(--color__body-text);
+    --color__link-body-hover: var(--dark__color-primary);
+    --color__link-body-underline-hover: var(--dark__color-secondary);
   }
   body.light-theme {
-    --text-color: var(--light__text-color);
-    --bkg-color: var(--light__bkg-color);
+    --color__body-text: var(--light__text-color);
+    --color__body-background: var(--light__bkg-color);
+    --color__link-body: var(--color__body-text);
+    --color__link-body-underline: var(--color__body-text);
+    --color__link-body-hover: var(--light__color-primary);
+    --color__link-body-underline-hover: var(--light__color-secondary);
   }
 }
 
@@ -31,9 +47,9 @@ body.dark-theme {
 }
 
 body {
-  background: var(--bkg-color);
+  background: var(--color__body-background);
   font-size: clamp(1.8rem, 4vw, 2.5rem);
-  color: var(--text-color);
+  color: var(--color__body-text);
   overflow-x: hidden;
 }
 
