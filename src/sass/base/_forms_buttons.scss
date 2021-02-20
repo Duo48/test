@@ -1,0 +1,7 @@
+button {
+  cursor: pointer;
+}
+
+button.squishy:active {
+  transform: scale(0.95);
+}
