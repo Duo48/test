@@ -1,0 +1,13 @@
+ol,
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+ol,
+ul {
+  display: block;
+  padding-left: var(--unit__padding-left);
+  margin: var(--unit__margin-default);
+}
