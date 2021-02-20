@@ -1,19 +1,22 @@
 :root {
   /**
-	 * Colours -- DARK
+	 * Theme -- DARK
 	 */
   --dark__bkg-color: #1c1c1c;
   --dark__text-color: #ccc;
   --dark__color-primary: #ff2929;
   --dark__color-secondary: #ffc845;
-
+  --dark__font-regular-weight: 300;
+  --dark__font-bold-weight: 500;
   /**
-	 * Colours -- LIGHT
+	 * Theme -- LIGHT
 	 */
   --light__bkg-color: #fffafa;
   --light__text-color: #545454;
   --light__color-primary: #9a1818;
   --light__color-secondary: #ffc845;
+  --light__font-regular-weight: 400;
+  --light__font-bold-weight: 700;
 
   // Effects
   --effect__transition: 0.4s ease-in-out;

@@ -10,6 +10,8 @@
   --color__link-body-underline: var(--color__body-text);
   --color__link-body-hover: var(--dark__color-primary);
   --color__link-body-underline-hover: var(--dark__color-secondary);
+  --font__regular-weight: var(--dark__font-regular-weight);
+  --font__bold-weight: var(--dark__font-bold-weight);
 }
 
 %dark__theme {
@@ -28,6 +30,8 @@
   --color__link-body-underline: var(--color__body-text);
   --color__link-body-hover: var(--light__color-primary);
   --color__link-body-underline-hover: var(--light__color-secondary);
+  --font__regular-weight: var(--light__font-regular-weight);
+  --font__bold-weight: var(--light__font-bold-weight);
 }
 
 %light__theme {

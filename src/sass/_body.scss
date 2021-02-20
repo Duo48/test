@@ -13,7 +13,6 @@ body.dark-theme {
 }
 
 @media (prefers-color-scheme: dark) {
-  /* defaults to dark theme */
   body {
     @include dark__theme;
   }
@@ -29,6 +28,7 @@ body.dark-theme {
 body {
   background: var(--color__body-background);
   font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: var(--font__regular-weight);
   color: var(--color__body-text);
   overflow-x: hidden;
 }
@@ -42,4 +42,11 @@ main {
   > * {
     grid-column: 2;
   }
+}
+
+h1,
+h2,
+h3,
+strong {
+  font-weight: var(--font__bold-weight);
 }
