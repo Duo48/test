@@ -5,40 +5,20 @@ html {
 }
 
 body {
-  --color__body-text: var(--light__text-color);
-  --color__body-background: var(--light__bkg-color);
-  --color__link-body: var(--color__body-text);
-  --color__link-body-underline: var(--color__body-text);
-  --color__link-body-hover: var(--light__color-primary);
-  --color__link-body-underline-hover: var(--light__color-secondary);
+  @include light__theme;
 }
 
 body.dark-theme {
-  --color__body-text: var(--dark__text-color);
-  --color__body-background: var(--dark__bkg-color);
-  --color__link-body: var(--color__body-text);
-  --color__link-body-underline: var(--color__body-text);
-  --color__link-body-hover: var(--dark__color-primary);
-  --color__link-body-underline-hover: var(--dark__color-secondary);
+  @include dark__theme;
 }
 
 @media (prefers-color-scheme: dark) {
   /* defaults to dark theme */
   body {
-    --color__body-text: var(--dark__text-color);
-    --color__body-background: var(--dark__bkg-color);
-    --color__link-body: var(--color__body-text);
-    --color__link-body-underline: var(--color__body-text);
-    --color__link-body-hover: var(--dark__color-primary);
-    --color__link-body-underline-hover: var(--dark__color-secondary);
+    @include dark__theme;
   }
   body.light-theme {
-    --color__body-text: var(--light__text-color);
-    --color__body-background: var(--light__bkg-color);
-    --color__link-body: var(--color__body-text);
-    --color__link-body-underline: var(--color__body-text);
-    --color__link-body-hover: var(--light__color-primary);
-    --color__link-body-underline-hover: var(--light__color-secondary);
+    @include light__theme;
   }
 }
 
