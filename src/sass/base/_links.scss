@@ -1,8 +1,8 @@
 a {
   color: var(--color__link-body);
   text-decoration-color: var(--color__link-body-underline);
-  text-decoration-thickness: 0.125em;
-  text-underline-offset: 0.25em;
+  // text-decoration-thickness: 0.1em;
+  // text-underline-offset: 0.25em;
   transition: var(--effect__transition);
 
   &:hover,
