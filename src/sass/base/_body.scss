@@ -21,6 +21,11 @@ body.dark-theme {
   }
 }
 
+::selection {
+  background: #ffc845;
+  color: #000;
+}
+
 * {
   font-family: var(--font__body);
 }
@@ -42,6 +47,10 @@ main {
   > * {
     grid-column: 2;
   }
+}
+
+p {
+  margin: 1.5rem 0;
 }
 
 strong {
