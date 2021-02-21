@@ -5,10 +5,17 @@ h4,
 h5,
 h6 {
   font-weight: var(--font__bold-weight);
+  color: var(--color__header-text);
 }
 
 h1 {
-  font-size: clamp(3rem, 4.5vw, 6rem);
+  font-size: clamp(4rem, 4.5vw, 6rem);
   line-height: 1.25;
   margin: 0.75em 0;
+}
+
+h2 {
+  font-size: clamp(3.33rem, 4vw, 5rem);
+  line-height: 1.25;
+  margin: var(--unit__margin-default);
 }
