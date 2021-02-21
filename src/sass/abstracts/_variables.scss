@@ -1,20 +1,22 @@
 :root {
-  /**
-	 * Theme -- DARK
-	 */
+  // ------------------------------------------------------------------
+  // Theme -- DARK
+  // ------------------------------------------------------------------
   --dark__bkg-color: #1c1c1c;
   --dark__text-color: #ccc;
+  --dark__header-color: #ddd;
   --dark__color-primary: #ff2929;
   --dark__color-secondary: #ffc845;
   --dark__font-regular-weight: 300;
   --dark__font-bold-weight: 500;
   --dark__image-filter: brightness(0.8) contrast(1.2);
 
-  /**
-	 * Theme -- LIGHT
-	 */
+  // ------------------------------------------------------------------
+  // Theme -- LIGHT
+  // ------------------------------------------------------------------
   --light__bkg-color: #fffafa;
   --light__text-color: #545454;
+  --light__header-color: #444;
   --light__color-primary: #9a1818;
   --light__color-secondary: #ffc845;
   --light__font-regular-weight: 400;
