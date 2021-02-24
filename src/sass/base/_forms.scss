@@ -1,10 +1,9 @@
 #mode-button {
-
-    font-size: 80%;
+  font-size: 80%;
 
   .mode-toggle {
     display: inline-grid;
-    grid-gap: 0.5em;
+    grid-gap: 1em;
     align-items: center;
     grid-template-areas: "input label";
     grid-template-columns: 2.5rem auto;
@@ -12,17 +11,22 @@
   }
   .mode-toggle-control {
     border-radius: 1em;
-    background-color: var(--color__forms-buttons-bkg); // var(--color-on-purple);
+    background-color: var(
+      --color__forms-buttons-bkg
+    ); // var(--color-on-purple);
     display: inline-grid;
     align-items: center;
     opacity: 0.8;
   }
   .mode-toggle-control,
   .mode-toggle input {
-    width: 2rem;
-    height: 0.8rem;
+    // font-size: 1rem;
+    // width: 2rem;
+    // height: 0.8rem;
+    font-size: 2rem;
+    width: 4rem;
+    height: 1.6rem;
     grid-area: input;
-    font-size: 1rem;
   }
 
   .mode-toggle input {
@@ -30,11 +34,11 @@
   }
 
   input:checked + .mode-toggle-control:before {
-    --switch-color: #f00 // var(--color-purple);
+    --switch-color: #0f0; // var(--color-purple);
     --switch-x: 100%;
   }
   .mode-toggle-control:before {
-    --switch-color: #0f0 // var(--color-surface);
+    --switch-color: #f00; // var(--color-surface);
     --switch-x: 0%;
     content: "";
     width: 1em;
@@ -43,6 +47,6 @@
     background-color: var(--switch-color);
     transform: translateY(-8%) translateX(var(--switch-x));
     transition: var(--effect__transition);
-    border: 2px solid #000 // var(--color-on-purple);
+    border: 4px solid #000; // var(--color-on-purple);
   }
 }
