@@ -7,6 +7,7 @@
   --dark__color-header: #ddd;
   --dark__color-primary: #ff2929;
   --dark__color-secondary: #ffc845;
+  --dark__color-mode-toggle-control-bkg: #bb86fc;
   --dark__font-regular-weight: 300;
   --dark__font-bold-weight: 500;
   --dark__image-filter: brightness(0.8) contrast(1.2);
@@ -18,7 +19,8 @@
   --light__color-text: #545454;
   --light__color-header: #444;
   --light__color-primary: #9a1818;
-  --light__color-secondary: #ffc845;
+  --light__color-secondary: #bb86fc;
+  --light__color-mode-toggle-control-bkg: var(--light__color-secondary);
   --light__font-regular-weight: 400;
   --light__font-bold-weight: 700;
   --light__image-filter: brightness(1) contrast(1); // Default
