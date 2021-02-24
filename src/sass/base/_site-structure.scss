@@ -9,15 +9,24 @@ header {
 
     .logo {
       .container {
-        flex-direction: column;
+        a {
+          color: #222;
+          font-weight: var(--light__font-regular-weight);
+          text-decoration: none;
+        }
+
         div {
-          white-space: nowrap;
-          line-height: 1.125;
+          display: grid;
+          place-items: center;
+          background-color: var(--color__mode-toggle-control-bkg);
+          height: 8rem;
+          width: 8rem;
+          border-radius: 50%;
         }
       }
     }
 
-    #mode-button {
+    #mode-toggle-container {
       margin-left: auto;
     }
   }
