@@ -2,9 +2,9 @@
   // ------------------------------------------------------------------
   // Theme -- DARK
   // ------------------------------------------------------------------
-  --dark__bkg-color: #1c1c1c;
-  --dark__text-color: #ccc;
-  --dark__header-color: #ddd;
+  --dark__color-body-bkg: #1c1c1c;
+  --dark__color-text: #ccc;
+  --dark__color-header: #ddd;
   --dark__color-primary: #ff2929;
   --dark__color-secondary: #ffc845;
   --dark__font-regular-weight: 300;
@@ -14,9 +14,9 @@
   // ------------------------------------------------------------------
   // Theme -- LIGHT
   // ------------------------------------------------------------------
-  --light__bkg-color: #fffafa;
-  --light__text-color: #545454;
-  --light__header-color: #444;
+  --light__color-body-bkg: #fffafa;
+  --light__color-text: #545454;
+  --light__color-header: #444;
   --light__color-primary: #9a1818;
   --light__color-secondary: #ffc845;
   --light__font-regular-weight: 400;
@@ -24,9 +24,9 @@
   --light__image-filter: brightness(1) contrast(1); // Default
 
   // Colours
-  --color__forms-buttons-border: 2px solid var(--dark__bkg-color);
+  --color__forms-buttons-border: 2px solid var(--dark__color-body-bkg);
   --color__forms-buttons-bkg: #ffc845;
-  --color__forms-buttons-text: var(--dark__bkg-color);
+  --color__forms-buttons-text: var(--dark__color-body-bkg);
 
   // Effects
   --effect__box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

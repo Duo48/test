@@ -2,9 +2,9 @@
 // DARK THEME
 // --------------------------------------------------------------------
 @mixin dark__theme {
-  --color__body-text: var(--dark__text-color);
-  --color__header-text: var(--dark__header-color);
-  --color__body-background: var(--dark__bkg-color);
+  --color__body-text: var(--dark__color-text);
+  --color__header-text: var(--dark__color-header);
+  --color__body-background: var(--dark__color-body-bkg);
   --color__link-body: var(--color__body-text);
   --color__link-body-underline: var(--color__body-text);
   --color__link-body-hover: var(--dark__color-secondary);
@@ -22,9 +22,9 @@
 // LIGHT THEME
 // --------------------------------------------------------------------
 @mixin light__theme {
-  --color__body-text: var(--light__text-color);
-  --color__header-text: var(--light__header-color);
-  --color__body-background: var(--light__bkg-color);
+  --color__body-text: var(--light__color-text);
+  --color__header-text: var(--light__color-header);
+  --color__body-background: var(--light__color-body-bkg);
   --color__link-body: var(--color__body-text);
   --color__link-body-underline: var(--color__body-text);
   --color__link-body-hover: var(--light__color-primary);
