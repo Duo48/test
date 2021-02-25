@@ -8,22 +8,6 @@ header {
     margin: 0 auto;
 
     .logo {
-      .container {
-        a {
-          color: #222;
-          font-weight: var(--light__font-regular-weight);
-          text-decoration: none;
-        }
-
-        div {
-          display: grid;
-          place-items: center;
-          background-color: var(--color__mode-toggle-control-bkg);
-          height: 8rem;
-          width: 8rem;
-          border-radius: 50%;
-        }
-      }
     }
 
     #mode-toggle-container {
