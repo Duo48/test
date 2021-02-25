@@ -43,17 +43,6 @@ img {
   filter: var(--effect__image-filter);
 }
 
-main {
-  display: grid;
-  grid-template-columns: 1fr min(50ch, 100%) 1fr;
-  max-width: 90%;
-  margin: 0 auto 3em auto;
-
-  > * {
-    grid-column: 2;
-  }
-}
-
 p {
   margin: var(--unit__margin-default);
 }
