@@ -8,6 +8,9 @@ header {
     margin: 0 auto;
 
     .logo {
+      img {
+        border-radius: 50%;
+      }
     }
 
     #mode-toggle-container {
