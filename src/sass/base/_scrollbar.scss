@@ -1,6 +1,6 @@
 body {
   scrollbar-width: auto;
-  scrollbar-color: var(--dark__color-text);
+  scrollbar-color: var(--light__color-text);
 }
 
 ::-webkit-scrollbar {
@@ -8,10 +8,10 @@ body {
   height: 16px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--dark__color-text);
+  background: var(--light__color-text);
 }
 ::-webkit-scrollbar-thumb {
-  background-color: var(--light__color-text);
+  background-color: var(--color__secondary);
   border-radius: 0;
-  // border: 2px solid var(--dark__color-text);
+  border: 2px solid var(--light__color-text);
 }
