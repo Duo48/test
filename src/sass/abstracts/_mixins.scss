@@ -3,13 +3,15 @@
 // --------------------------------------------------------------------
 @mixin dark__theme {
   --color__body-text: var(--dark__color-text);
-  --color__header-text: var(--dark__color-header);
   --color__body-background: var(--dark__color-body-bkg);
+  --color__header-text: var(--dark__color-header);
   --color__link-body: var(--color__body-text);
-  --color__link-body-underline: var(--color__body-text);
   --color__link-body-hover: var(--dark__color-secondary);
+  --color__link-body-underline: var(--color__body-text);
   --color__link-body-underline-hover: var(--dark__color-primary);
   --color__mode-toggle-control-bkg: var(--dark__color-mode-toggle-control-bkg);
+  --color__primary: var(--dark__color-primary);
+  --color__secondary: var(--dark__color-secondary);
   --effect__image-filter: var(--dark__image-filter);
   --font__regular-weight: var(--dark__font-regular-weight);
   --font__bold-weight: var(--dark__font-bold-weight);
@@ -24,13 +26,15 @@
 // --------------------------------------------------------------------
 @mixin light__theme {
   --color__body-text: var(--light__color-text);
-  --color__header-text: var(--light__color-header);
   --color__body-background: var(--light__color-body-bkg);
+  --color__header-text: var(--light__color-header);
   --color__link-body: var(--color__body-text);
-  --color__link-body-underline: var(--color__body-text);
   --color__link-body-hover: var(--light__color-primary);
+  --color__link-body-underline: var(--color__body-text);
   --color__link-body-underline-hover: var(--light__color-secondary);
   --color__mode-toggle-control-bkg: var(--light__color-mode-toggle-control-bkg);
+  --color__primary: var(--light__color-primary);
+  --color__secondary: var(--light__color-secondary);
   --effect__image-filter: var(--light__image-filter);
   --font__regular-weight: var(--light__font-regular-weight);
   --font__bold-weight: var(--light__font-bold-weight);
