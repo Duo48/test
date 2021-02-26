@@ -29,3 +29,68 @@ main {
     grid-column: 2;
   }
 }
+
+footer {
+  .container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: var(--unit__body-maxwidth);
+    margin: 0 auto;
+    padding: 1rem 0;
+
+    .info {
+      margin: 15px 0;
+    }
+
+    .nav {
+      display: flex;
+      flex-grow: 1;
+      justify-content: flex-end;
+
+      nav {
+        ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+
+          li {
+            display: inline;
+          }
+
+          li:not(:first-child) {
+            padding-left: 36px;
+          }
+
+          @include media-max(1023px) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+            li:not(:first-child) {
+              padding-left: 0;
+            }
+          }
+
+          @include media-max(480px) {
+            margin-top: 15px;
+
+            li {
+              padding-left: 0;
+            }
+          }
+        }
+      }
+    }
+
+    @include media-max(480px) {
+      flex-direction: column;
+
+      .info {
+        order: 2;
+      }
+      .nav {
+        order: 1;
+      }
+    }
+  }
+}
