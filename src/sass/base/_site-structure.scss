@@ -9,8 +9,18 @@ header {
     border-bottom: 2px solid var(--color__body-text);
 
     .logo {
+      display: flex;
+      align-items: center;
+
       img {
         border-radius: 50%;
+      }
+
+      div:nth-child(2) {
+        margin: 0 1rem;
+        @include media-max(480px) {
+          font-size: 80%;
+        }
       }
     }
 
