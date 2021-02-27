@@ -22,20 +22,6 @@ body.dark-theme {
   }
 }
 
-body {
-  animation: fadeInAnimation ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 ::selection {
   background: #ffc845;
   color: #000;
@@ -51,6 +37,17 @@ body {
   font-weight: var(--font__regular-weight);
   color: var(--color__body-text);
   overflow-x: hidden;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 img {
