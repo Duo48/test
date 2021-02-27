@@ -1,6 +1,7 @@
+html,
 body {
   scrollbar-width: auto;
-  scrollbar-color: var(--light__color-text);
+  scrollbar-color: var(--color__default_yellow) var(--light__color-text) !important;
 }
 
 ::-webkit-scrollbar {
