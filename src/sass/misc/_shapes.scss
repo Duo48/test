@@ -1,15 +1,17 @@
 // --------------------------------------------------------------------
 // Equilateral Triangle
 // --------------------------------------------------------------------
+
 // Vars
 $height: 95.875px;
 $width: $height / 2 * 3;
+
 .equilateral-triangle {
   width: 0;
   height: 0;
   border-right: $height solid transparent;
   border-left: $height solid transparent;
-  border-bottom: $width solid salmon;
+  border-bottom: $width solid var(--color__body-text);
   transition: var(--effect__transition);
 
   &:active,
@@ -25,6 +27,18 @@ $width: $height / 2 * 3;
     width: $width;
     margin-left: calc(100% - #{$width} / 2);
   }
+}
+
+.equilateral-triangle:nth-of-type(even),
+.equilateral-triangle:nth-of-type(even) div {
+  transform: rotate(180deg);
+}
+
+.equilateral-triangle:nth-of-type(odd) div {
+  background-position: center top 50px;
+}
+.equilateral-triangle:nth-of-type(even) div {
+  background-position: center top 20px;
 }
 
 // Container
