@@ -1,0 +1,28 @@
+// --------------------------------------------------------------------
+// Equilateral Triangle
+// --------------------------------------------------------------------
+// Vars
+$height: 95.875px;
+$width: $height / 2 * 3;
+.equilateral-triangle {
+  width: 0;
+  height: 0;
+  border-right: $height solid transparent;
+  border-left: $height solid transparent;
+  border-bottom: $width solid salmon;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: $width;
+    width: $width;
+    margin-left: calc(100% - #{$width} / 2);
+  }
+}
+
+// Container
+#triangles .container {
+  display: flex;
+  flex-wrap: wrap;
+}
