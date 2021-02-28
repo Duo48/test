@@ -54,7 +54,8 @@ img {
   filter: var(--effect__image-filter);
 }
 
-p {
+p,
+section {
   margin: var(--unit__margin-default);
 }
 
