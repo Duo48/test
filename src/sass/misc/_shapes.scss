@@ -10,8 +10,12 @@ $width: $height / 2 * 3;
   border-right: $height solid transparent;
   border-left: $height solid transparent;
   border-bottom: $width solid salmon;
-  z-index: 1;
+  transition: var(--effect__transition);
 
+  &:active,
+  &:hover {
+    border-bottom: $width solid #f00;
+  }
   div {
     display: flex;
     align-items: center;
