@@ -16,11 +16,17 @@ $width: $height / 2 * 3;
 
   &:active,
   &:hover {
-    border-bottom: $width solid #f00;
+    border-bottom: $width solid var(--color__body-background);
   }
 
   svg {
     fill: var(--color__body-background);
+    transition: var(--effect__transition);
+
+    &:active,
+    &:hover {
+      fill: var(--color__body-text);
+    }
   }
 
   div {
@@ -36,13 +42,6 @@ $width: $height / 2 * 3;
 .equilateral-triangle:nth-of-type(even),
 .equilateral-triangle:nth-of-type(even) div {
   transform: rotate(180deg);
-}
-
-.equilateral-triangle:nth-of-type(odd) div {
-  background-position: center top 50px;
-}
-.equilateral-triangle:nth-of-type(even) div {
-  background-position: center top 20px;
 }
 
 // Container
