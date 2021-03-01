@@ -19,6 +19,10 @@ $width: $height / 2 * 3;
     border-bottom: $width solid #f00;
   }
 
+  svg {
+    fill: var(--color__body-background);
+  }
+
   div {
     display: flex;
     align-items: center;
