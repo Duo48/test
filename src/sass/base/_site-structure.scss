@@ -13,6 +13,7 @@ header {
       align-items: center;
 
       img {
+        filter: grayscale(1);
         border-radius: 50%;
       }
 
@@ -53,7 +54,7 @@ footer {
     max-width: var(--unit__body-maxwidth);
     margin: 0 auto;
     padding: 1rem 0;
-    border-top: 2px solid var(--color__default_yellow);
+    border-top: 2px solid var(--color__body-text);
 
     .info {
       margin: 15px 0;
