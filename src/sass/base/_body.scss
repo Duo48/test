@@ -51,7 +51,14 @@ body {
 }
 
 img {
-  filter: var(--effect__image-filter);
+  // filter: var(--effect__image-filter);
+  filter: grayscale(1);
+  transition: var(--effect__transition);
+
+  &:active,
+  &:hover {
+    filter: grayscale(0);
+  }
 }
 
 p,
