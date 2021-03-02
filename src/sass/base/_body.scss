@@ -61,9 +61,12 @@ img {
   }
 }
 
-p,
-section {
+p {
   margin: var(--unit__margin-default);
+}
+
+section {
+  margin: var(--unit__margin-defaultx2);
 }
 
 strong {
